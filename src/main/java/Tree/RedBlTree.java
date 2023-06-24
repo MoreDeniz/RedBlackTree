@@ -1,3 +1,5 @@
+package Tree;
+
 public class RedBlTree {
    // class RBTree{
 /*
@@ -91,7 +93,7 @@ public class RedBlTree {
             return true;
         }
     }
-    
+
     public boolean addNode(Node node, int value) {
         if (node.value == value) {
             return false;
@@ -192,24 +194,4 @@ public class RedBlTree {
     private enum Color {
         RED, BLACK
     }
-
-
-
-
-    /*
-    public boolean contains(int value) {
-        Node node = root;
-        while (node != null) {
-            if (node.value == value) {
-                return true;
-            }
-            if (node.value == value > 0) {
-                node = node.left;
-            } else {
-                node = node.right;
-            }
-        }
-        return false;
-    }
-   */
 }
